@@ -1,0 +1,354 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+a{
+  color:black !important;
+}
+.brand-logo{
+font-family: 'Grand Hotel', cursive;
+}
+
+.mycard{
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.auth-card{
+  padding:20px;
+  text-align: centre;
+  max-width: 700px;
+  margin:20px auto;
+}
+
+.input-field input[type=text]:focus{
+  border-bottom: 1px solid #1b5e20  !important;
+  box-shadow: 0 1px 0 0 #1b5e20  !important;
+}
+.input-field input[type=password]:focus{
+  border-bottom: 1px solid #1b5e20 !important;
+  box-shadow: 0 1px 0 0 #1b5e20  !important;
+}
+.input-field input[name="text"]:focus{
+  border-bottom: 1px solid #1b5e20 !important;
+  box-shadow: 0 1px 0 0 #1b5e20  !important;
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item{
+  width: 30%;
+}
+.home-card{
+  max-width: 500px;
+  height: max-content;
+  margin: 26px auto;
+}
+
+#toast-container{
+  top:30px !important;
+  right:20px !important;
+  left:auto !important;
+}
+.about2{
+  background-color: rgb(240, 240, 240) !important;
+}  
+.map{
+  width: 350px !important;
+  height: 220px !important;
+}
+.sec3,.container,.sec5,.sec1,.suggest,.suggest2,.C1,.C2,.C3{
+  display:flex;
+}
+.video{
+  margin: 100px;
+}
+.company1{
+  display: flex;
+  margin-left:80px;
+  
+  }
+  .team{
+    display: flex;
+    margin-left:50px;
+    margin-right: 50px;
+  }
+/*----*/
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+  /*--company-*/
+  /* background-image: url('images/background.jpg');*/
+
+.box{
+    margin:50px;
+    width: 400px;
+}
+.contribution{
+    background-color:#1b4b1b;
+    color: white;
+    
+}
+/*    background-image: url('images/collection.jpg');*/
+.collection{
+    width:100%;
+
+    height:250px;
+    padding:50px;
+    text-align: center;
+    color:white;
+}
+.quote{
+    margin-top: 12px;
+    margin-bottom: 55px;
+    width: 100%;
+    height: 350px;
+    background-color:#1b4b1b ;
+    color: white;
+    font-size: 22px;
+    padding: 48px;
+    text-align: center;
+}
+/*background-image: url('images/back2.jpg');*/
+.about{
+    width:100%;
+    height:350px;
+    
+    text-align:center;
+    color: white;
+    padding: 100px;
+    
+}
+.about1{
+    margin:98px;
+    
+}
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background:#1b4b1b;
+    color:whitesmoke;
+    padding: 45px;
+    margin-top: 98px;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+    font-size: 25px;;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue;}
+  
+  /* background-image: url("images/background2.jpg");*/
+.transport{
+  width:100%;
+    height:350px;
+   
+    text-align:center;
+    color: white;
+    font-size: 98px;
+    padding-top:125px;
+    padding-left: 45px;
+    margin-bottom: 100px;
+     
+}
+.ewaste{
+  margin:120px;
+  padding-left: 98px;
+
+}
+.boxes{
+  width: 350px;
+  height: 450px;
+  text-align: center;
+  font-size: 23px;
+border: solid whitesmoke;
+}
+/* background-image: url("images/rottenfruits.jpg");*/
+.foodwaste{
+ 
+  text-align: center;
+  width: 100%;
+  height:400px;
+  padding-top: 98px;
+  color:white;
+}
+/* background-image: url("images/donate2.jpg");*/
+.donate{
+  width:100%;
+  height:400px;
+ 
+
+}
+/*-company-*/
+
+
+/*contact us*/
+/* background:url(person.jpg);*/
+body{
+  margin:0;
+  padding:0;
+ 
+  background-size: cover;
+}
+
+.contact-form{
+  width: 85%;
+  max-width: 600px;
+  background: #f1f1f1;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-radius:8px;
+  text-align: center;
+  box-shadow: 0 0 20px #000000b3;
+  font-family: sans-serif,inherit;
+}
+.contact-form h1{
+  margin-top: 0;
+font-weight: 200;
+}
+.txtb{
+  border: 1px solid gray;
+  margin: 8px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+.txtb label{
+  display: block;
+  text-align: left;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.txtb input, .txtb textarea{
+  width: 100%;
+  border:none;
+  background: none;
+  font-size: 18px;
+  margin-top: 6px;
+}
+.btn{
+  display: inline-block;
+  background: #9b59b6;
+  padding: 14px 0;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 100%;
+}
+/*contact us*/
+
+
+
+/*Social Icons*/
+.social-container{
+  margin-top: 50px;
+  padding:25px 50px;
+  transform: translate(-380px,180px);
+}
+a.social{
+
+
+
+width: 45px;
+height: 45px;
+background: #fff;
+text-align: center;
+line-height: 50px;
+font-size: 25px;
+margin: 0 10px;
+display:inline-block;
+border-radius: 50%;
+position: relative;
+overflow: hidden;
+border: 3px solid #fff;
+z-index: 1;
+}
+a.social:hover{
+ 
+  transform: rotateY(360deg);
+}
+a.youtube{
+color: #ff0000;
+}
+a.facebook{
+color: #3b5998;
+}
+a.twitter{
+color: #1da1f2;
+}
+a.instagram{
+color: #c32aa3;
+}
